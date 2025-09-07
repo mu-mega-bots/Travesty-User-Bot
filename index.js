@@ -466,7 +466,7 @@ const bannedWords = [
     "wichser",
     "wop*",
     "yed",
-    "zabourah"]; // Add your banned words here
+    "zabourah"];
 
   if (msg.text.startsWith('echo ')) {
       if (bannedWords.some(word => msg.text.toLowerCase().includes(word))) {
